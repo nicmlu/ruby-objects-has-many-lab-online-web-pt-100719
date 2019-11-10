@@ -50,5 +50,9 @@ class Author
     post_obj = Post.new(title)
     add_post(post_obj)
   end 
+  
+  def self.post_count
+    Post.all.count
+  end 
 
 end 
