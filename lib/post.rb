@@ -27,6 +27,7 @@ class Post
   
   def initialize(title)
     @name = title 
+    @@all.push(self)
   end 
   
   def self.all
