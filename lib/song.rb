@@ -28,3 +28,10 @@
 #     end 
 #   end 
 # end
+
+class Song 
+  attr_accessor :artist
+  @@all = []
+
+
+end 
