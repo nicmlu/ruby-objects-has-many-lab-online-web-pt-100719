@@ -47,8 +47,8 @@ class Author
   end
   
   def add_post_by_title(title)
-    new_post = Post.new(title)
-    new_post.author == self 
+    post_obj = Post.new(title)
+    add_post(post_obj)
   end 
 
 end 
